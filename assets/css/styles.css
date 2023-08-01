@@ -200,7 +200,7 @@
  }
 
  #times {
-     background: url("../images/dublin-city.webp") top center / cover no-repeat;
+     background: url("../images/dublin-city.webp") center center / cover no-repeat;
      /* Handles responsitivity without the need for a media query */
      display: flex;
      flex-wrap: wrap;
