@@ -122,6 +122,18 @@
      color: #fff;
  }
 
+ /* Gallery page */
+ #photos img {
+     width: 100%;
+     line-height: 1em;
+ }
+
+ #photos {
+     /* images are default inline elements and are treated as text. 
+     Text has a default line height and that's why images are a white gap */
+     line-height: 0;
+ }
+
  /* Footer */
  #social-networks {
      text-align: center;
