@@ -58,7 +58,67 @@
 
     <!-- Main content -->
     <main>
-        
+      <section id="signup">
+        <form
+          action="https://formdump.codeinstitute.net"
+          method="POST"
+          id="signup-form"
+        >
+          <h2>
+            <i class="fa-solid fa-heart-pulse"></i> Let's get you signed up!
+          </h2>
+          <label for="first_name">First Name </label>
+          <input
+            class="text-input"
+            type="text"
+            name="first_name"
+            id="first_name"
+            required
+          />
+          <br />
+          <label for="last_name">Last Name </label>
+          <input
+            class="text-input"
+            type="text"
+            name="last_name"
+            id="last_name"
+            required
+          />
+          <br />
+          <label for="email_adress">Email Adress </label>
+          <input
+            class="text-input"
+            type="email"
+            name="email_adress"
+            id="email_adress"
+            required
+          />
+          <br />
+          <div id="radio_buttons">
+            <div>
+              <label for="road">Road</label>
+              <input
+                type="radio"
+                name="running_preance"
+                id="road"
+                required
+                checked
+              />
+            </div>
+            <div>
+              <label for="trail">Trail</label>
+              <input type="radio" name="running_preance" id="trail" required />
+            </div>
+            <div>
+              <label for="both">Both</label>
+              <input type="radio" name="running_preance" id="both" required />
+            </div>
+          </div>
+          <div class="form-example">
+            <input class="join-button" type="submit" value="Submit" />
+          </div>
+        </form>
+      </section>
     </main>
 
     <!-- Footer -->
